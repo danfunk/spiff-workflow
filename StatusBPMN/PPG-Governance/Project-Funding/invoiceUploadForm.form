@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "label": "Full name",
+      "type": "textfield",
+      "id": "Field_01xhlql",
+      "key": "name",
+      "description": "Your full name",
+      "validate": {
+        "required": true
+      },
+      "properties": {
+        "key7": "value"
+      }
+    },
+    {
+      "label": "Contributor ID",
+      "type": "textfield",
+      "id": "Field_03zdlpq",
+      "key": "contributorId",
+      "description": "This is your Bamboo HR employee ID",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Invoice ID",
+      "type": "textfield",
+      "id": "Field_1h8spgl",
+      "key": "invoiceId",
+      "validate": {
+        "required": true
+      },
+      "description": "Invoice ID from your invoice PDF"
+    },
+    {
+      "label": "Invoice amount",
+      "type": "number",
+      "id": "Field_0giumog",
+      "key": "invoiceAmount",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Due date",
+      "type": "textfield",
+      "id": "Field_1mkxqvr",
+      "key": "dueDate",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Upload",
+      "type": "button",
+      "id": "Field_0bw8wef",
+      "key": "field_00341be"
+    },
+    {
+      "action": "submit",
+      "label": "Submit",
+      "type": "button",
+      "id": "Field_086a0oa",
+      "key": "field_1d32wf7"
+    }
+  ],
+  "type": "default",
+  "id": "Emp",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "schemaVersion": 4
+}
